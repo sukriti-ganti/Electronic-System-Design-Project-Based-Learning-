@@ -31,12 +31,16 @@ This project detects LPG gas leaks using an **MQ-2 sensor**, activates an **exha
 
 
 ## Block diagram:
-[MQ-2 Sensor] ---> [Raspberry Pi GPIO]
+
+              [MQ-2 Sensor] --->
+
+             [Raspberry Pi GPIO]
                          |
                          v
                  [Transistor Switch]
                          |
-                    [Exhaust Fan]
+                   [Exhaust Fan]
 
-        [Wi-Fi] ---> [HiveMQ Broker] ---> [Subscriber Device]
+     [Wi-Fi] ---> [HiveMQ Broker] ---> [Subscriber Device]
+
 
