@@ -1,0 +1,9 @@
+- **Broker**: `broker.hivemq.com` or custom HiveMQ Cloud URL
+- **Topic**: `esd/gas-alert`
+- **Payload**:
+```json
+{
+  "gas_level": 0.78,
+  "status": "LEAK DETECTED",
+  "timestamp": "2025-08-13 22:32"
+}
