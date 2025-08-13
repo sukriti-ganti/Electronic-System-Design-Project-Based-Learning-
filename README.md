@@ -1,5 +1,6 @@
 # Smart Gas Leak Detection and Ventilation System using Raspberry Pi and MQTT
 This project is a smart **gas leakage detection and ventilation system** designed using a **Raspberry Pi**, an **MQ-2 gas sensor**, an **exhaust fan**, and **MQTT-based communication via HiveMQ Cloud**.
+To take this project from a basic IoT demo to a more advanced, real-world-ready system, the MQTT-based messaging via HiveMQ can be replaced with a custom client-server model using Google Protocol Buffers (Protobuf).
 
 ## Problem Statement
 Gas leakage incidents in kitchens, factories, and mining environments can be fatal if not detected and addressed in real-time. Manual monitoring is unreliable and cannot ensure timely evacuation or control. There is a need for:
